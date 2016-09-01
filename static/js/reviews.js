@@ -143,6 +143,8 @@ jQuery(function($) {
 	    $('#select-facebook').fadeIn();
 	else if(socialMediaOrder[index] == "yelp")
 	    $('#select-yelp').fadeIn();
+	    else if(socialMediaOrder[index] == "homemade_rating")
+	    $('#select-homemade_rating').fadeIn();
     }
 
     function go_to_next_review_media(last_screen, index) {
@@ -274,7 +276,7 @@ jQuery(function($) {
 
     //MAIN
     if (socialMediaOrder.length <= 1) {
-	socialMediaOrder = 'google,facebook,yelp';
+	socialMediaOrder = 'google,facebook,yelp,homemade_rating';
     }
 
     socialMediaOrder = socialMediaOrder.replace(' ', '').split(",");
