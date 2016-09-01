@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Import the Raleway font */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+/* Basic styles */
+body{
+    background:#000;
+    text-align: center;
+    margin:0;
+}
+
+p,h1,h2,h3,h4,h5,li{font-family:'Raleway'; font-weight:normal;}
+h1,h2,h3,h4,h5{text-align:center;}
+
+/* Animation Styles */
+.svgPath1 {
+    -webkit-clip-path: url("animation.css#svgPath1");
+    clip-path: url("animation.css#svgPath1");
+}
+
+.svgPath2 {
+    -webkit-clip-path: url("animation.css#svgPath2");
+    clip-path: url("animation.css#svgPath2");
+}
+
+.existing_div{
+    width:200%;
+    height:200%;
+    background: #f2f2f2;
+    display:block;
+    float:none;
+    position:fixed;
+    left:-50%;
+    margin:-8px 0 0 0;
+}
+
+.ani_holder{
+    width:100%;
+    height:100%;
+    display:block;
+    overflow:hidden;
+}
+
+.ani_expand{
+    width:0;
+    height:0;
+    position:fixed;
+    margin:200px 0 0 50%;
+    top:0;
+    left:0;
+    background: #3e5b99;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    text-align: center;
+    float:none;
+}
+
+.ani_icon_holder{
+    width:100%;
+    height:100%;
+    margin:0 0;
+    display:block;
+    top:0;
+    left:-50%;
+    position:fixed;
+    overflow:hidden;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float:none;
+    opacity:1;
+    text-align:center;
+}
+
+#ani_swipe_google{
+    width:400%;
+    height:400%;
+    float:left;
+    display:block;
+    text-align: center;
+    position:fixed;
+    margin-left:-150%;
+    margin-top:-200%;
+    top:120px;
+    left:0;
+}
+
+#ani_swipe_facebook{
+    width:400%;
+    height:400%;
+    float:left;
+    display:block;
+    text-align: center;
+    position:fixed;
+    margin-left:-150%;
+    margin-top:-200%;
+    top:120px;
+    left:0;
+}
+
+#ani_swipe_yelp{
+    width:400%;
+    height:400%;
+    float:left;
+    display:block;
+    text-align: center;
+    position:fixed;
+    margin-left:-150%;
+    margin-top:-200%;
+    top:120px;
+    left:0;
+}
+
+.animation_icon_img{
+    width:120px;
+    height:120px;
+    margin:60px auto 0 auto;
+    display:block;
+    position:relative;
+    top:60px;
+}
+
+.google_expand_bg{
+    border: 100% solid transparent;
+    border-top-color: orange;
+    border-right-color: purple;
+    border-bottom-color: blue;
+    border-left-color: yellow;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

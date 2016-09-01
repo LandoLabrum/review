@@ -1,0 +1,955 @@
+/******************************************************************************
+ *
+ *	All newly added styles by Rain
+ *
+ *
+ *
+ *	@Section: Global Styles
+ *
+*******************************************************************************/
+body {
+    padding-top: 90px;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: 0 auto 80px;
+}
+
+
+/******************************************************************************
+ *
+ *	@Section: Header Styles
+ *
+*******************************************************************************/
+/*header {
+	min-width: 1024px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #2592c9;
+	margin-bottom: 50px;
+}*/
+
+.admin-logo {
+	max-width: 200px;
+	width: 200px;
+	display: inline-block;
+	float: left;
+	padding: 5px 0 0 10px;
+}
+
+.admin-logo img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.counterContainer{
+    float: right;
+}
+
+/* Added by TJ 3/15 */
+
+.romodal-fix{
+    padding:none;
+}
+
+/*header ul {
+	list-style: none;
+	padding: 20px 0 0;
+	margin: 0;
+}
+
+header ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+header ul li:first-child { margin-left: -200px; }
+
+header ul li a {
+	color: #000000;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+header ul li a:hover { color: #2592c9;}*/
+
+
+/******************************************************************************
+ *
+ *	@Section: Table Styles
+ *
+*******************************************************************************/
+/*table {
+	width: 1024px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+table th {
+    border: 0;
+    border-bottom: 1px solid #000000;
+    text-align: left;
+}
+
+table img { display: block; margin: 10px 0; }
+table tbody tr:nth-child(even) { background-color: rgba(115, 192, 233, 0.3); }
+table thead {}
+table tr td:last-child { padding-right: 10px; }
+table tr td:first-child { padding-left: 10px; }
+
+table tbody tr { height: 40px; }
+table td textarea {
+    height: 180px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*//* Client Search Results *//*
+table.client-search-results th.practice-name { width: 170px; }
+table.client-search-results th.email { width: 250px; }
+table.client-search-results tbody td.activate { text-align: center; }
+table.client-search-results tbody tr:nth-child(odd) { background-color: #FFFFFF; }
+
+*//* Library Uploads *//*
+table.library-uploads th.filename { width: 200px; }
+table.library-uploads th.actions { width: 60px; }
+table.library-uploads td:last-child { text-align: right; }
+table.library-uploads td:nth-child(4) { text-align: center; width: 60px; }
+
+table .saveBtn,
+table .delBtn { width: 90% !important; padding: 9px 0 10px !important; cursor: pointer; }
+table .saveBtn { margin-bottom: 10px; }
+
+*//* Assign Red/Green colors depending on account status *//*
+table tbody tr.setup-No-No {}
+table tbody tr.setup-Yes-Yes { background-color: #93FABC; }
+table tbody tr.setup-No-Yes { background-color: #fa9393 !important; }
+table tbody tr.setup-Yes-No { background-color: #fa9393 !important; }*/
+
+
+/******************************************************************************
+ *
+ *	@Section: Form Styles
+ *
+*******************************************************************************/
+input[type="text"] {
+	width: 100%;
+	min-height: 26px;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+}
+
+input.button-blue,
+input.button-blue,
+input[type="submit"],
+input[type="button"],
+button.saveBtn,
+button.delBtn {
+	background-color: #2592c9;
+	color: #ffffff;
+	font-weight: 700;
+	border: 0;
+	padding: 9px 15px 10px;
+	text-align: center;
+	width: auto;
+}
+
+input#saveAll {
+	margin-bottom: 50px;
+	margin-left: 25px;
+}
+
+.upload-section {
+	background: #E0D5D5;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+
+
+/******************************************************************************
+	*
+	*	All Custom Styles, for the login and forgot password pages
+	*
+*******************************************************************************/
+#UserLoginForm,
+#PasswordResetForm {
+	max-width: 300px;
+	margin: auto;
+	padding-top: 150px;
+	text-align:left;
+}
+
+#UserLoginForm input,
+#PasswordResetForm input {
+	width: 100%;
+	min-height: 26px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#UserLoginForm label,
+#PasswordResetForm label {
+	display: inline-block;
+	margin-bottom: 5px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+#UserLoginForm input.button-blue,
+#PasswordResetForm input.button-blue {
+	background-color: #2592c9;
+	color: #ffffff;
+	font-weight: 700;
+	border: 0;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+/******************************************************************************
+ *
+ *	@Section: Review Page Specific Styles
+ *
+*******************************************************************************/
+.page-review .main-review-content ul,
+.page-review footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.page-review footer a {
+    color: #FFFFFF;
+}
+
+.page-review {
+    background: #fff;
+    color: #000000;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.page-review header {
+    background: #f1f1f1;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.main-review-header {
+    background: #2592c9;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.main-review-header img {
+    height: 70px;
+    width: auto;
+}
+
+.main-review-header h1 {
+    color: #fff;
+    font-family: 'brandon_grotesquebold';
+    margin: 0;
+}
+
+.main-review-content-container {
+    width: 100%;
+    max-width: 1024px;
+    min-height: 100vh;
+    min-width: 768px;
+    padding: 120px 0 80px;
+    margin: auto;
+    background:#efefef;
+    border:20px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-review-content-container.tutorial {
+    padding-top: 0;
+}
+
+.review-step-recommend h3 {
+    font-family: 'brandon_grotesquebold';
+    color: #30a4dc;
+    text-transform: uppercase;;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.review-step-recommend img {
+    margin:40px 0 0 0;
+    height: 120px;
+    widows: auto;
+}
+
+.review-step-feedback, #review-google, #review-options, #review-options .oops {
+    display: none;
+}
+
+.network-option .recommend-btn {
+    height: 49px;
+    line-height: 49px;
+    width: 81%;
+    display: inline-block;
+}
+
+.network-option.gplus {
+    display: none;
+}
+
+.recommend-btn, .remodal-confirm{
+    background: #fb8f02;
+    border-radius: 25px;
+    display: block;
+    width: 250px;
+    border: none;
+    color: #fff;
+    height: 45px;
+    font-family: 'Raleway';
+    font-size:20px;
+    margin:0 auto 15px auto;
+    cursor:pointer;
+    color:#fff;
+}
+a.recommend-btn:hover, a.recommend-btn:focus{
+    color:#fff;
+}
+
+a.recommend-btn {
+    line-height: 45px;
+}
+
+.recommend-btn.no {
+    background:#afafaf;
+    color:#fff;
+}
+
+.recommend-btn.no.btn-no-bg {
+    background: none;
+    color:#474747;
+}
+
+#review-options .recommend-btn img {
+    height: 35px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.review-step-try-social {
+    text-align: center;
+    display: none;
+}
+
+.review-step-try-social img {
+    width: 100%;
+}
+
+.review-step-try-social h4 {
+    color: #7c7c7c;
+    font-family: 'brandon_grotesquebold';
+    text-transform: uppercase;
+    text-align: center;
+    width: 70%;
+    margin: 12px auto 0;
+}
+
+.review-step-try-social h4 img {
+    height: 25px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.review-step-do-rate, .review-step-fallback, .review-step-tutorial {
+    display: none;
+}
+
+.review-step-do-rate h3 {
+    font-family: 'Raleway';
+    color: #383838;
+    text-align: center;
+    margin:20px 10% 40px 10%;
+}
+
+.review-step-do-rate #starsRating {
+    text-align: center;
+}
+
+.review-step-do-rate #starsRating img {
+    width: 38px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.review-step-do-rate p {
+    color: #cfcdcd;
+    font-family: 'adelle_sansregular';
+    text-align: center;
+    margin:2px 0 45px 0;
+}
+
+.review-step-do-rate form label {
+    font-family: 'adelle_sanssemibold';
+    color: #383838;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 1.1rem;
+}
+
+.review-step-do-rate form textarea {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width:80%;
+    margin:0 10%;
+    resize:none;
+}
+
+.review-step-do-rate form .submitbtn, 
+#review-rate-form .submitbtn {
+    background: #39a5da;
+    border-radius: 25px;
+    display: block;
+    width: 250px;
+    border: none;
+    color: #fff;
+    height: 45px;
+    font-family: 'Raleway';
+    font-size:20px;
+    margin:20px auto 15px auto;
+    cursor:pointer;
+    color:#fff;
+}
+
+iframe#app-loader {
+    width: 1px;
+    height: 1px;
+    border: none;
+}
+
+.review-step-submitted, .review-step-submitted-feedback {
+    text-align: center;
+}
+
+.review-step-submitted {
+    display: none;
+}
+
+.review-step-submitted.submitted {
+    display: block;
+}
+
+.review-step-submitted h3 {
+    margin-bottom: 2px;
+    color: #30a4dc;
+    font-family: 'brandon_grotesquebold';
+    text-transform: uppercase;
+}
+
+.small-stars {
+    height: 12px;
+    widows: auto;
+    margin-bottom: 20px;
+}
+
+.review-share {
+    height: 30px;
+    display: block;
+    width: 70%;
+    color: #fff;
+    font-family: 'brandon_grotesquebold';
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 30px;
+    margin: 0 auto 10px;
+}
+
+.review-share.facebook {
+    background: #3b5998;
+}
+
+.review-share.twitter {
+    background: #00aced;
+}
+
+.review-share.google {
+    background: #d14836;
+}
+
+body.tutorial {
+    background-color: #2592c9;
+}
+
+.review-step-tutorial .bx-wrapper {
+    margin-bottom: 10px;
+}
+
+.review-step-tutorial .bxslider {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.review-step-tutorial .bxslider li {
+    visibility: hidden;
+}
+
+.review-step-tutorial .bxslider li:first-child {
+    visibility: visible;
+}
+
+.review-step-tutorial .bxslider li img {
+    height: 400px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.review-step-tutorial .bx-wrapper .bx-viewport {
+    background: transparent;
+    border-color: #2592c9;
+    box-shadow: none;
+}
+
+.review-step-tutorial .bxslider li h5 {
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.review-step-tutorial .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #95c8e3;
+}
+
+.review-step-tutorial .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.review-step-tutorial .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #fff;
+}
+
+.review-step-tutorial .bx-wrapper .bx-pager, 
+.review-step-tutorial .bx-wrapper .bx-controls-auto {
+    bottom: -10px;
+}
+
+a.recommend-btn.write-review {
+    color: #2592c9;
+    background: #fff;
+    margin: 20px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+}
+
+a.skip-tutorial {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.review-app-prompt {
+    display: none;
+}
+
+.review-app-prompt h4 img {
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+/**************************************
+/* Side Bar Area
+***************************************/
+.main-review-sidebar {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.main-review-sidebar:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+
+.main-review-sidebar .speech-bubble,
+.main-review-sidebar .company-logo {
+    display: inline-block;
+    height: auto;
+    max-width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-review-sidebar .speech-bubble {
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.main-review-sidebar .company-logo {
+    min-width: 200px;
+}
+
+
+/**************************************
+/* Main Content Area
+***************************************/
+.share-customer-review {
+    text-align: left;
+}
+.share-customer-review label {
+    background: #2592c9;
+    padding: 30px 20px;
+    margin: 0;
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    line-height: 0.8;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.share-customer-review textarea {
+    font-size: 1.6rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    resize: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.share-customer-review textarea:focus {
+    outline: none;
+}
+
+.main-review-content {
+    width: 100%;
+    text-align: center;
+}
+
+.main-review-content h3 {
+    font-size: 1.6rem;
+}
+
+.main-review-content h3.option-2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.main-review-content h3 span {
+    color: #2592c9;
+    text-transform: capitalize;
+}
+
+.review-options {}
+
+.review-options h4 {
+    font-size: 1.2rem;
+    margin: 0 0 25px;
+}
+
+.page-review .review-options ul {
+    margin-bottom: 50px;
+}
+
+.review-options ul li {
+    display: inline-block;
+    margin-left: 5%;
+    width: 30%;
+}
+
+.review-options ul li:first-child { margin-left: 0; }
+
+.review-options ul li a {
+    display: block;
+}
+
+.review-options ul li a img {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+
+.review-buttons {
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.review-buttons button,
+.review-buttons a {
+    border: 1px solid #2592c9;
+    padding: 10px 30px;
+    background: transparent;
+    outline: 0;
+    text-decoration: none;
+    color: #2592c9;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.review-buttons button {
+    color: #ffffff;
+    background: #2592c9;;
+}
+
+.review-buttons a {
+    margin-left: 20px;
+}
+
+.page-review .footer-container {
+    background: #2592c9;
+    min-height: 34vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.page-review footer {
+    width: 90%;
+    padding: 5%;
+    max-width: 768px;
+    margin: auto;
+}
+
+.page-review footer h2 {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    margin: 0 0 10px 15%;
+}
+
+.page-review .footer-icons {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 6%;
+}
+
+.page-review .footer-icon-img {
+    width: 10%;
+    max-width: 34px;
+    margin-right: 5%;
+    margin-top: -8px;
+    float: left;
+}
+
+.page-review .footer-icons .footer-text {
+    width: 70%;
+    float: left;
+}
+
+.page-review .footer-icons:nth-child(2) .footer-icon-img {
+    margin-top: 0;
+}
+
+.review-buttons:after,
+.review-options ul:after,
+.page-review .footer-icons:after,
+.main-review-content-container:after {
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+
+.stars-rate {
+    width: 100%;
+    margin: 0 auto;
+}
+.review-step-recommend h4 {
+    color: #474747;
+    margin:45px 20px;
+    font-size: 1.3rem;
+    font-family: 'Raleway';
+}
+#stars {
+    background-color: #2592c9;
+    color: #ffffff;
+    border: 0;
+    padding: 9px 15px 10px;
+    text-align: center;
+    width: auto;
+    border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    border: 0px solid #2592c9;
+}
+
+#review-rate-form h4 {
+    color: #474747;
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    text-align: center;
+    margin:20px 10% 60px 10%;
+    line-height:1.5rem;
+}
+
+#review-rate-form label {
+    display: block;
+    color: #383838;
+    font-family: 'adelle_sanssemibold';
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#review-rate-form textarea {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width:80%;
+    margin:0 10%;
+    resize:none;
+}
+
+.submitbtn {
+    margin-top: 20px;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border: 0px solid #2592c9;
+    padding: 10px 40px;
+    font-weight: normal;
+}
+
+#review-result-share {
+    display: none;
+    margin-top: 20px;
+}
+
+/***************** ADD BY TJ 3/10/16 *********************/
+
+.social-block,.social-block-tip,.social-block-anim{
+    _background:#efefef;
+    border:20px solid #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    top:0;
+    left:0;
+    width:100%;
+    bottom:0;
+    position:absolute;
+}
+
+.social-block-tip,.social-block-anim{
+    border:none;
+    overflow:hidden;
+}
+.social-block-anim img{
+    margin:0px auto 0px -60px;
+    left:50%;
+}
+
+.social-block p,.social-block-tip p{
+    text-align:center;
+    margin:20px 50px;
+    font-family: 'adelle_sansregular';
+}
+
+.btn-bottom{
+    float:none; width:100%; bottom:20px; left:0; position:absolute;
+}
+
+
+
+
+/**************************************
+/* Mobile Styles
+***************************************/
+@media screen and (max-width: 768px) {
+
+    .main-review-content-container {
+        width: 100%;
+        min-width: 0;
+        padding: 40px 0;
+    }
+
+    .main-review-sidebar,
+    .main-review-content {
+        width: 100%;
+        float: none;
+    }
+
+    .main-review-sidebar {
+        margin-bottom: 20px;
+    }
+
+    .main-review-sidebar .speech-bubble {
+        width: 48%;
+        margin-left: 2%;
+    }
+
+    .main-review-sidebar .company-logo {
+        max-width: 48%;
+        min-width: 0;
+    }
+
+    .main-review-content {
+        text-align: center;
+    }
+
+    .main-review-content h3 {
+        font-size: 4.5vw;
+    }
+
+    .review-options h4 {
+        font-size: 3.5vw;
+    }
+
+    .review-buttons {
+    }
+
+    .review-options ul li,
+    .review-options ul li:first-child {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .review-options ul li:first-child {
+        margin-bottom: 20px;
+    }
+
+    .page-review footer h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #stars img {
+        width: 36px;
+    }
+}
+
+
+/******************************************************************************
+ *
+ *  @Section: Image Carousel Specific Styles
+ *
+*******************************************************************************/
+.photostack img {
+  width: 100%;
+}
+
+
+
